@@ -681,6 +681,7 @@ nav {
   background-color: #EFCF2F;
 }
 .hero-image{
+  margin-top: 75px;
   background-image: linear-gradient(rgba(255,255,255,0.5), rgba(255,255,255,0.5)), url("../img/projectors.jpg");
   height:50%;
   background-position: center;
