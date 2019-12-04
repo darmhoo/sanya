@@ -2,8 +2,8 @@
 <project version="4">
   <component name="WebServers">
     <option name="servers">
-      <webServer id="668d059b-bbd7-481d-b2c2-39ae5a45b0e1" name="roguemediang.com" url="http://roguemediang.com">
-        <fileTransfer host="roguemediang.com" port="21" rootFolder="/public_html">
+      <webServer id="668d059b-bbd7-481d-b2c2-39ae5a45b0e1" name="roguemediang.com" url="http://roguemedia.com.ng">
+        <fileTransfer host="roguemedia.com.ng" port="21" rootFolder="/public_html">
           <advancedOptions>
             <advancedOptions dataProtectionLevel="Private" />
           </advancedOptions>

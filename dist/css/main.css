@@ -25,7 +25,8 @@ html, body {
   margin-top: 0;
   margin-bottom: 10px;
   text-transform: capitalize;
-  color: #3C4D6B; }
+  color: #3C4D6B;
+  }
 
 .subheader {
   color: #3C4D6B;
@@ -42,10 +43,24 @@ html, body {
   font-size: 15px;
   font-weight: 100; }
 
+.side_chick{
+  text-align: center;
+  background-image: url(../../dist/img/general.jpg);
+  background-size: cover;
+  color: #3c3c3c;
+
+}
+.side_chick h1{
+  font-size: 2em;
+}
+#list{
+  color: #888888;
+}
+
 .topBar {
   background-color: #000000; }
-  .topBar p, .topBar a {
-    font-size: 12px;
+.topBar p, .topBar a {
+    font-size: 10px;
     color: #ffffff;
     padding-top: 10px; }
     @media only screen and (min-width: 240px) and (max-width: 480px) {
@@ -107,7 +122,7 @@ nav {
     .jumbotron {
       padding-top: 10px; } }
   .jumbotron .hero-bg {
-    background-color: #F0F4F6;
+    background-color: #d4d4d4;
     height: 100%;
     width: 100%;
     position: absolute;
@@ -259,7 +274,9 @@ nav {
 
 .btn-rates {
   @extent .btn;
-  background-color: #3F3C6B;
+  background-color: #EFCF2F;
+  font-weight: 600;
+  font-size: 14px;
   padding: 2px 20px;
   margin-left: 20px; }
   @media only screen and (min-width: 240px) and (max-width: 480px) {
@@ -391,6 +408,9 @@ nav {
     color: #778191;
     font-size: 15px; }
 
+.section-title ul{
+  list-style: square;
+}
 .section20 {
   margin-bottom: 20px; }
 
@@ -635,3 +655,47 @@ nav {
     list-style: none;
     list-style-position: inherit;
   }
+  .categories{
+    overflow: hidden;
+    display: inline;
+  }
+
+#header{
+  text-align: center;
+  font-family: "Ubuntu", sans-serif;
+}
+
+.center-stage{
+  text-align: center;
+}
+#typed3{
+
+  font-size: 48px;
+  font-family: "Ubuntu", sans-serif;
+}
+.frame{
+  border: dashed 2px #EFCF2F;
+  text-align: center;
+}
+.frame h3{
+  background-color: #EFCF2F;
+}
+.hero-image{
+  background-image: linear-gradient(rgba(255,255,255,0.5), rgba(255,255,255,0.5)), url("../img/projectors.jpg");
+  height:50%;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
+}
+.hero-text{
+  text-align: center;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  color: white;
+}
+.fixed{
+  font-size: 36px;
+}
