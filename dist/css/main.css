@@ -81,11 +81,15 @@ body {
 }
 
 .sectionHeader {
-  font-size: 24px;
+
   margin-top: 0;
   margin-bottom: 10px;
   text-transform: capitalize;
   color: #3c4d6b;
+  line-height: 1.5;
+}
+.fixed {
+  font-size: 1.5rem;
 }
 
 .subheader {
@@ -407,9 +411,31 @@ nav .navbar-toggle {
 .btn-apply a:hover {
   text-decoration: none;
 }
+.call-btn{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
 
 .call-btn .btn-apply {
   margin-right: 20px;
+}
+.btn-products{
+  font-size: 1.2rem;
+  margin: 0 4px 0 4px;
+
+}
+.btn-products:hover{
+  background: #efcf2f;
+  color: white;
+
+}
+.btn-services{
+  font-size: 1.2rem;
+}
+.btn-services:hover{
+  background: #efcf2f;
+  color: white;
 }
 
 .btn-rates {
@@ -942,6 +968,7 @@ nav .navbar-toggle {
   transform: translate(-50%, -50%);
   color: white;
 }
-.fixed {
-  font-size: 36px;
+.hero-text h1{
+  font-weight: 500;
 }
+
