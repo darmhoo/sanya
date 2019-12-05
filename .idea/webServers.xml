@@ -3,7 +3,7 @@
   <component name="WebServers">
     <option name="servers">
       <webServer id="668d059b-bbd7-481d-b2c2-39ae5a45b0e1" name="roguemediang.com" url="http://roguemedia.com.ng">
-        <fileTransfer host="roguemedia.com.ng" port="21" rootFolder="/public_html">
+        <fileTransfer host="roguemedia.com.ng" port="21" rootFolder="/public_html" accessType="FTPS">
           <advancedOptions>
             <advancedOptions dataProtectionLevel="Private" />
           </advancedOptions>
