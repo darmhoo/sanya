@@ -180,7 +180,11 @@ body {
   font-weight: 400;
   margin: 0 0 8px 0;
 }
+<<<<<<< HEAD
 .cardSubheader {
+=======
+.cardSubheader{
+>>>>>>> 5cbe89c0d96b040c7c159f81c8a0ab1f638bb3cf
   color: #3c4d6b;
   font-size: 1.2rem;
   line-height: 1.3;
@@ -266,9 +270,16 @@ nav .navbar-nav li {
   -ms-transition-duration: 0.5s;
   -o-transition-duration: 0.5s;
   transition-duration: 0.5s;
+<<<<<<< HEAD
 }
 
 .navbar-nav li:hover {
+=======
+
+}
+
+.navbar-nav li:hover{
+>>>>>>> 5cbe89c0d96b040c7c159f81c8a0ab1f638bb3cf
   cursor: pointer;
 }
 .navbar-nav li ul {
@@ -281,14 +292,22 @@ nav .navbar-nav li {
   display: none;
 }
 
+<<<<<<< HEAD
 .navbar-nav li:hover > ul,
 ul li ul:hover {
+=======
+.navbar-nav li:hover > ul,ul li ul:hover{
+>>>>>>> 5cbe89c0d96b040c7c159f81c8a0ab1f638bb3cf
   visibility: visible;
   opacity: 1;
   display: block;
 }
 
+<<<<<<< HEAD
 .navbar-nav li ul li {
+=======
+.navbar-nav li ul li{
+>>>>>>> 5cbe89c0d96b040c7c159f81c8a0ab1f638bb3cf
   clear: both;
   width: 100%;
 }
@@ -307,6 +326,10 @@ ul li ul:hover {
 .navbar-nav .active {
   background-color: white !important;
 }
+<<<<<<< HEAD
+=======
+
+>>>>>>> 5cbe89c0d96b040c7c159f81c8a0ab1f638bb3cf
 
 nav .navbar-toggle {
   border-color: transparent;
