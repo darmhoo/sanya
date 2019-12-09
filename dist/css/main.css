@@ -101,10 +101,15 @@ body {
 }
 
 .cardTitle {
-  font-size: 20px;
-  color: #3c4d6b;
+  font-size: 1.9rem;
+  color: white;
   font-weight: 400;
-  margin-top: 0;
+  margin: 0 0 8px 0;
+}
+.cardSubheader{
+  color: #3c4d6b;
+  font-size: 1.2rem;
+  line-height: 1.3;
 }
 
 .subTitle {
@@ -150,7 +155,7 @@ body {
 }
 
 nav {
-  background-color: #efcf2f !important;
+  background-color: #e6ecef !important;
   padding-top: 4px;
   padding-bottom: 0;
 
@@ -183,8 +188,39 @@ nav .navbar-nav {
   }
 }
 nav .navbar-nav li {
+  display: block;
+  -webkit-transition-duration: 0.5s;
+  -moz-transition-duration: 0.5s;
+  -ms-transition-duration: 0.5s;
+  -o-transition-duration: 0.5s;
+  transition-duration: 0.5s;
 
 }
+
+.navbar-nav li:hover{
+  cursor: pointer;
+}
+.navbar-nav li ul {
+  visibility: hidden;
+  opacity: 0;
+  position: absolute;
+  transition: all 0.5s ease;
+  margin-top: 1rem;
+  left: 0;
+  display: none;
+}
+
+.navbar-nav li:hover > ul,ul li ul:hover{
+  visibility: visible;
+  opacity: 1;
+  display: block;
+}
+
+.navbar-nav li ul li{
+  clear: both;
+  width: 100%;
+}
+
 @media only screen and (min-width: 240px) and (max-width: 480px) {
   nav .navbar-nav li {
     border-bottom: 1px solid rgba(223, 229, 237, 0.9);
@@ -199,9 +235,7 @@ nav .navbar-nav li {
 .navbar-nav .active{
   background-color: white !important;
 }
-.navbar-brand li a:hover{
-  background: white;
-}
+
 
 nav .navbar-toggle {
   border-color: transparent;
@@ -846,7 +880,7 @@ nav .navbar-toggle {
 }
 
 .footer {
-  background-color: #efcf2f;
+  background-color: #e6ecef;
   padding-top: 50px;
   padding-bottom: 50px;
 }
